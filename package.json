@@ -1,0 +1,23 @@
+{
+  "name": "rashwedskhat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "live-server index.html",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedhassanmn/RashWedsKhat.git"
+  },
+  "author": "mohamed hassan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamedhassanmn/RashWedsKhat/issues"
+  },
+  "homepage": "https://github.com/mohamedhassanmn/RashWedsKhat#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
