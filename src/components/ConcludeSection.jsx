@@ -8,7 +8,13 @@ const ConcludeSection = () => {
         <br class="hidden lg:block" /> attempt to disappoint (or) hurt the
         feelings of anyone!
         <div class="absolute top-0 left-0 w-full h-full -z-1">
-          <img src={concludeBgImg} alt="" height="100%" width="100%" />
+          <img
+            class="h-full"
+            src={concludeBgImg}
+            alt=""
+            height="100%"
+            width="100%"
+          />
         </div>
       </div>
     </div>
