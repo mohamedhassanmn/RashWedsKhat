@@ -1,7 +1,7 @@
 import { For } from "solid-js";
 import { extraDecorativeText } from "../utils/cssUtils";
 
-const MainSection = () => {
+const MainSection = ({ setConformBooking }) => {
   const resorts = [
     {
       resortName: "Anora Beach Resort, Chennai ",
@@ -70,7 +70,7 @@ const MainSection = () => {
     },
   ];
   return (
-    <div class="px-4 py-8 lg:py-20 lg:px-24">
+    <div class="px-4 py-8 lg:py-20 lg:px-24 max-w-7xl m-auto">
       <div class={`text-2xl lg:text-4.5xl font-thick ${extraDecorativeText}`}>
         Do it on the Couch, Sofa or on the <br class="hidden lg:block" /> Dining
         Table
@@ -82,7 +82,9 @@ const MainSection = () => {
         <For each={resorts}>
           {(resort, i) => (
             <div
-              onClick={() => {}}
+              onClick={() => {
+                setConformBooking(true);
+              }}
               class={`relative h-[220px] lg:h-[440px] rounded-3xl bg-cover bg-center text-white w-full lg:w-[40%] mb-6 cursor-pointer ${
                 i % 2 == 0 ? "lg:ml-6" : "lg:mr-6"
               }`}

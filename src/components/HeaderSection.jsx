@@ -5,7 +5,7 @@ import { extraDecorativeText } from "@/utils/cssUtils";
 
 const HeaderSection = () => {
   return (
-    <div class="h-auto lg:h-[610px] flex flex-col md:flex-row justify-end items-start md:px-10">
+    <div class="h-auto lg:h-[610px] flex flex-col md:flex-row justify-end items-start md:px-10 max-w-7xl m-auto">
       <div class="w-full lg:w-auto lg:mr-6 lg:mt-64 order-last lg:order-first text-center lg:text-left">
         <div class="text-2.5xl lg:text-3.5xl font-thick pt-4 md:pt-0">
           Congrats! You
