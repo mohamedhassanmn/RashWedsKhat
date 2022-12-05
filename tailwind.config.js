@@ -40,6 +40,7 @@ module.exports = {
         6.5: '1.625rem',
         9.5: '2.37rem',
         10.5: '2.62rem',
+        18: "4.5rem",
         25: '6.25rem',
         27.5: '6.87rem',
         55: '13.75rem',
@@ -52,6 +53,7 @@ module.exports = {
         10.5: '2.62rem',
         13.5: '3.37rem',
         15: '3.75rem',
+        18: "4.5rem",
         19.5: '4.875rem',
         25.5: '6.37rem',
         26.5: '6.625rem',
@@ -65,6 +67,7 @@ module.exports = {
         10.5: '2.62rem',
         13.5: '3.37rem',
         15: '3.75rem',
+        18: "4.5rem",
         19.5: '4.875rem',
         25.5: '6.37rem',
         26.5: '6.625rem',
@@ -76,10 +79,12 @@ module.exports = {
       colors: {
       },
       backgroundImage: {
-        curevebg: "url('/asset/curve-bg@3x.png')",
+        curevebg: "url('/assets/curve-bg@3x.png')",
+        concludeBg: "url('/assets/conclude-bg.png')",
         customerBg:
           'linear-gradient(179.95deg, rgba(0, 189, 148, 0.15) 0.05%, rgba(229, 239, 255, 0.262661) 110.36%, rgba(229, 239, 255, 0) 110.37%)',
-        usefulGradient: "linear-gradient(92.56deg, #44A8B0 31.37%, #84D3CB 105.73%)"
+        usefulGradient: "linear-gradient(92.56deg, #44A8B0 31.37%, #84D3CB 105.73%)",
+        ctaGradient: "linear-gradient(92.56deg, #44A8B0 31.37%, #84D3CB 105.73%)"
       },
       borderRadius: {
         '2.5xl': '1.25rem',
