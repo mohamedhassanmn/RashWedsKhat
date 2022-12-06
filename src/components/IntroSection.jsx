@@ -5,11 +5,11 @@ const IntroSection = () => {
     <div class="relative text-white px-4 py-32 lg:py-36 lg:px-24 lg:-mt-6 z-10 flex flex-col justify-center items-start font-thick">
       <div class="max-w-7xl m-auto">
         <div class="text-2.5xl lg:text-4.5xl font-thick">
-          Thank God! You Scroll Down than Swiping Right,
+          Thank God! You scrolled Down rather than Swiping Right,
         </div>
         <div class="lg:ml-3 mt-4">
           <div class="text-xl lg:text-2.5xl">
-            Just like you do always! (Psst...have you deleted those apps?)
+            Just like you always do! (Psst...have you deleted those apps?)
           </div>
           <div class="text-lg lg:text-2xl mt-8 lg:mt-16 lg:leading-10">
             Jokes apart and cut to the chase, We didn’t expect you to
@@ -19,8 +19,7 @@ const IntroSection = () => {
             <br class="lg:block hidden" /> coax us into getting married. But
             Kudos to your Courage!
             <br class="lg:block hidden" /> And Khathija, thank you for marrying
-            this absolutely
-            <br class="lg:block hidden" />
+            this absolutely <br class="lg:block hidden" />
             amazing friend of ours, now we can finally get rid of him!{" "}
             <br class="lg:block hidden" />
             Macha, we have TWO cars still waiting nearby your{" "}
